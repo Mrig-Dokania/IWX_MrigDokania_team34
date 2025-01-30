@@ -8,9 +8,9 @@ const KnowMore: React.FC = () => {
     <ImageBackground source={require('../screens/4.gif')} style={styles.background}>
       <ScrollView contentContainerStyle={styles.container}>
         <View style={styles.section}>
-          <Text style={styles.heading}>About RCOP</Text>
+          <Text style={styles.heading}>About Us</Text>
           <Text style={styles.description}>
-            RCOP (Rapid Community of Programmers) is a group dedicated to harnessing the power of technology for the betterment of mankind. We believe in leveraging innovation and collaboration to address societal challenges and drive positive change.
+            We are a group dedicated to harnessing the power of technology for the betterment of mankind. We believe in leveraging innovation and collaboration to address societal challenges and drive positive change.
           </Text>
         </View>
         <View style={styles.section}>
@@ -47,20 +47,20 @@ const KnowMore: React.FC = () => {
           <View style={styles.teamContainer}>
             <View style={styles.member}>
               <Image source={require('./1.jpg')} style={styles.memberImage} />
-              <Text style={styles.memberName}>Priyant Banerjee</Text>
-              <Text style={styles.memberRole}>Founder & CEO</Text>
-              <TouchableOpacity onPress={() => Linking.openURL('https://github.com/pbhacks')}>
+              <Text style={styles.memberName}>mrig</Text>
+              <Text style={styles.memberRole}>president</Text>
+              <TouchableOpacity onPress={() => Linking.openURL('https://github.com/')}>
                 <Icon name="github" style={styles.icon} />
               </TouchableOpacity>
-              <TouchableOpacity onPress={() => Linking.openURL('https://www.linkedin.com/in/pbhacks')}>
+              <TouchableOpacity onPress={() => Linking.openURL('https://www.linkedin.com/')}>
                 <Ionicons name="logo-linkedin" style={styles.icon} />
               </TouchableOpacity>
             </View>
             <View style={styles.member}>
               <Image source={require('./2.jpg')} style={styles.memberImage} />
-              <Text style={styles.memberName}>Utkarsh Mhatre</Text>
+              <Text style={styles.memberName}>.</Text>
               <Text style={styles.memberRole}>Director</Text>
-              <TouchableOpacity onPress={() => Linking.openURL('https://www.linkedin.com/in/utkarshmhatre/')}>
+              <TouchableOpacity onPress={() => Linking.openURL('https://www.linkedin.com/')}>
                 <Ionicons name="logo-linkedin" style={styles.icon} />
               </TouchableOpacity>
             </View>
